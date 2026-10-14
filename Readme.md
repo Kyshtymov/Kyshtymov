@@ -95,11 +95,11 @@
 | Проект | Описание | Стек |
 |---|---|---|
 | [**Dog Story**](https://github.com/Kyshtymov/Yandex-practicum-C-Game-Dog-Story) | Сетевая 3D-игра: игрок в роли собаки соревнуется с другими в поиске предметов на карте. Реализованы клиент-серверная архитектура, REST API, сессии, хранение рекордов в PostgreSQL. | C++20, Boost.Asio, Beast, Json, Log, PostgreSQL, libpqxx, Docker, Conan, JavaScript |
-| [**Transport Catalogue**](https://github.com/Kyshtymov/Yandex-practicum-C-Transport-Catalogue) | Транспортный каталог: считывает карту местности из JSON и рассчитывает кратчайшее расстояние между двумя пунктами. Визуализация маршрутов в SVG. | C++17, Boost.Json, SVG, граф, ANTLR, CMake |
+| [**Transport Catalogue**](https://github.com/Kyshtymov/Yandex-practicum-C-Transport-Catalogue) | Транспортный каталог: считывает карту местности из JSON и рассчитывает кратчайшее расстояние между двумя пунктами. Визуализация маршрутов в SVG. | C++17, SVG, граф, CMake |
 | [**Spreadsheets**](https://github.com/Kyshtymov/Yandex-practicum-C-SpreadHeets) | Консольная реализация электронной таблицы с поддержкой формул. Парсинг выражений через ANTLR, построение AST, граф зависимостей ячеек, кэширование. | C++17, ANTLR, Catch2, CMake |
 | [**Robot and Fire**](https://github.com/Kyshtymov/Yandex-practicum-C-Game-Robot-And-Fire) | 2D-игра на Qt: управление роботом для спасения людей из горящего здания. Изометрическая проекция, динамическое освещение, загрузка уровней из JSON. | Qt Widgets, QPainter, C++17 |
 | [**Calculator**](https://github.com/Kyshtymov/Yandex-practicum-C-Calculator) | Калькулятор с графической оболочкой на Qt: парсинг выражений, вычисление, обработка ошибок. | Qt Widgets, C++17, CMake |
-| [**Advanced Vector**](https://github.com/Kyshtymov/Yandex-practicum-C-Advanced-Vector) | Собственная реализация динамического массива `Vector<T>` с итераторами, управлением сырой памятью и поддержкой RAII. | Шаблоны C++, placement new, RAII |
+| [**Advanced Vector**](https://github.com/Kyshtymov/Yandex-practicum-C-Advanced-Vector) | Собственная реализация динамического массива `Vector<T>` с итераторами, управлением сырой памятью и поддержкой RAII. | Шаблоны C++, RAII |
 
 ### Data Science / ML
 
@@ -110,15 +110,8 @@
 | 3 | [Прогноз заказов такси](https://github.com/Kyshtymov/Yandex-practicum-DataScience-Taxi-Prediction) | Прогнозирование числа заказов такси на следующий час. Ресемплирование, декомпозиция ряда, лаговые признаки, кросс-валидация для временных рядов. | RMSE = 33 | Scikit-learn, Statsmodels |
 | 4 | [Токсичные комментарии](https://github.com/Kyshtymov/Yandex-practicum-DataScience-Toxic-Commentaries) | Классификация токсичных комментариев. Очистка и лемматизация текста, векторизация TF-IDF, сравнение моделей. | F1 = 0.76 | NLTK, TF-IDF, PyMystem3 |
 | 5 | [Возраст по фотографии](https://github.com/Kyshtymov/Yandex-practicum-DataScience-Computer-Vision) | Определение возраста покупателя по фотографии. Аугментация данных, transfer learning на базе ResNet50, регрессионная нейронная сеть. | MAE = 6.53 | TensorFlow, Keras, ResNet50 |
-| 6 | [Температура сплава](https://github.com/Kyshtymov/Yandex-practicum-DataScience-Temperature-) | Прогнозирование конечной температуры сплава для снижения энергопотребления на заводе. Объединение 7 датафреймов, генерация признаков, VIF-анализ. | MAE = 5.34 | Scikit-learn, Lasso |
+| 6 | [Температура сплава](https://github.com/Kyshtymov/Yandex-practicum-DataScience-Temperature-Prediction) | Прогнозирование конечной температуры сплава для снижения энергопотребления на заводе. Объединение 7 датафреймов, генерация признаков, VIF-анализ. | MAE = 5.34 | Scikit-learn, Lasso |
 | 7 | [HR-аналитика: уход сотрудников](https://github.com/Kyshtymov/Yandex-practicum-DataScience-Job-quit-prediction) | Предсказание удовлетворённости работой и ухода сотрудников. Пайплайны с двумя кодировщиками, портрет «уволившегося сотрудника». | SMAPE ≤ 15, ROC-AUC ≥ 0.91 | Scikit-learn |
-
----
-
-## 📊 Статистика GitHub
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kyshtymov&show_icons=true&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kyshtymov&layout=compact&hide_border=true)
 
 ---
 
