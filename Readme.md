@@ -92,14 +92,14 @@
 
 ### C++ / системная разработка
 
-| Проект | Описание | Стек |
-|---|---|---|
-| [**Dog Story**](https://github.com/Kyshtymov/Yandex-practicum-C-Game-Dog-Story) | Сетевая 3D-игра: игрок в роли собаки соревнуется с другими в поиске предметов на карте. Реализованы клиент-серверная архитектура, REST API, сессии, хранение рекордов в PostgreSQL. | C++20, Boost.Asio, Beast, Json, Log, PostgreSQL, libpqxx, Docker, Conan, JavaScript |
-| [**Transport Catalogue**](https://github.com/Kyshtymov/Yandex-practicum-C-Transport-Catalogue) | Транспортный каталог: считывает карту местности из JSON и рассчитывает кратчайшее расстояние между двумя пунктами. Визуализация маршрутов в SVG. | C++17, SVG, граф, CMake |
-| [**Spreadsheets**](https://github.com/Kyshtymov/Yandex-practicum-C-SpreadHeets) | Консольная реализация электронной таблицы с поддержкой формул. Парсинг выражений через ANTLR, построение AST, граф зависимостей ячеек, кэширование. | C++17, ANTLR, Catch2, CMake |
-| [**Robot and Fire**](https://github.com/Kyshtymov/Yandex-practicum-C-Game-Robot-And-Fire) | 2D-игра на Qt: управление роботом для спасения людей из горящего здания. Изометрическая проекция, динамическое освещение, загрузка уровней из JSON. | Qt Widgets, QPainter, C++17 |
-| [**Calculator**](https://github.com/Kyshtymov/Yandex-practicum-C-Calculator) | Калькулятор с графической оболочкой на Qt: парсинг выражений, вычисление, обработка ошибок. | Qt Widgets, C++17, CMake |
-| [**Advanced Vector**](https://github.com/Kyshtymov/Yandex-practicum-C-Advanced-Vector) | Собственная реализация динамического массива `Vector<T>` с итераторами, управлением сырой памятью и поддержкой RAII. | Шаблоны C++, RAII |
+| # | Проект | Описание | Стек |
+|---|---|---|---|
+| 1 | [**Dog Story**](https://github.com/Kyshtymov/Yandex-practicum-C-Game-Dog-Story) | Сетевая 3D-игра: игрок в роли собаки соревнуется с другими в поиске предметов на карте. Реализованы клиент-серверная архитектура, REST API, сессии, хранение рекордов в PostgreSQL. | C++20, Boost.Asio, Beast, Json, Log, PostgreSQL, libpqxx, Docker, Conan, JavaScript |
+| 2 | [**Transport Catalogue**](https://github.com/Kyshtymov/Yandex-practicum-C-Transport-Catalogue) | Транспортный каталог: считывает карту местности из JSON и рассчитывает кратчайшее расстояние между двумя пунктами. Визуализация маршрутов в SVG. | C++17, SVG, граф, CMake |
+| 3 | [**Spreadsheets**](https://github.com/Kyshtymov/Yandex-practicum-C-SpreadHeets) | Консольная реализация электронной таблицы с поддержкой формул. Парсинг выражений через ANTLR, построение AST, граф зависимостей ячеек, кэширование. | C++17, ANTLR, Catch2, CMake |
+| 4 | [**Robot and Fire**](https://github.com/Kyshtymov/Yandex-practicum-C-Game-Robot-And-Fire) | 2D-игра на Qt: управление роботом для спасения людей из горящего здания. Изометрическая проекция, динамическое освещение, загрузка уровней из JSON. | Qt Widgets, QPainter, C++17 |
+| 5 | [**Calculator**](https://github.com/Kyshtymov/Yandex-practicum-C-Calculator) | Калькулятор с графической оболочкой на Qt: парсинг выражений, вычисление, обработка ошибок. | Qt Widgets, C++17, CMake |
+| 6 | [**Advanced Vector**](https://github.com/Kyshtymov/Yandex-practicum-C-Advanced-Vector) | Собственная реализация динамического массива `Vector<T>` с итераторами, управлением сырой памятью и поддержкой RAII. | Шаблоны C++, RAII |
 
 ### Data Science / ML
 
